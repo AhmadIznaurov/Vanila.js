@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(243, 240, 240, 0.942);
+  
+}
+
+#header > img {
+    margin-left: 330px;
+}
+#header-container {
+    max-width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 750px;
+}
+
+#info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+#header a.menu-item {
+    text-decoration: none;
+    color: rgb(211, 211, 26);
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.section_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.sidebar_right {
+ width: 800px;
+}
+
+.parent_one, .parent_two {
+    display: flex;
+    width: 750px;
+}
+
+.one, .two, .three, .four {
+    display: flex;
+    width: 800px;
+}
+
+
+.sidebar_left {
+  width: 390px;
+}
+
+.button {
+    background-color: #d58e12;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.container_top, .container_down {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.first, .second, .third, .fourth {
+ text-align: center;
+ border: 0.1px solid rgb(245, 240, 240);
+ width: 280px;
+ height: 345px;
+}
+
+.container_top > div > button {
+    width: 260px;
+    height: 50px;
+    background-color: #d6a11c;
+    border: none;
+    color: black; 
+    font-weight: bold; 
+    font-size: 16px;
+}
+
+.container_down > div > button {
+    width: 260px;
+    height: 50px;
+    background-color: #d6a11c;
+    border: none;
+    color: black; 
+    font-weight: bold; 
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 0 0 360px;
+    width: 1300px;
+}
+
+.footer-aside {
+    margin-top: -40px;
+}
+
+.footer-aside-one > input {
+    display: block;
+    padding: 15px;
+    width: 230px;
+    margin: 10px;
+}
+
+.footer_button {
+    padding: 15px;
+    width: 265px;
+    margin: 10px;
+    background-color: rgb(229, 155, 18);
+    border: none;
+}
+
+.footer-aside-one > input {
+    border: 1px solid rgb(229, 155, 18);
+}
+
+.footer-aside-two {
+    margin-bottom: 90px;
+}
+
+.footer-aside-two > img {
+  margin-top: -170px;
+}
+
+.fullscreen-image img{
+  width: 1500px;
+  height: 1100px;
+  margin-top: -4000px;
+  margin-left: 250px;
+}

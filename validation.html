@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="validation container">
+        <form action="#" id="myForm">
+          <div class="validation_wrap">
+            <h3>Your name</h3>
+            <input type="text" placeholder="write your name" pattern="[^.]*" required>
+          </div>
+          <div>
+            <h3>Your surname</h3>
+            <input type="password" placeholder="write your surname" required>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+
+      <script>
+             
+             let form = document.getElementById('myForm');
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    if (form.checkValidity()) {
+        setTimeout(function() {
+            window.location.href = "website.html"; 
+        }, 1000);
+    } else {
+        form.reportValidity();
+    }
+});
+      </script>
+
+</body>
+</html>
